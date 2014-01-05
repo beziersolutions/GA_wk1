@@ -1,0 +1,9 @@
+background{
+background-color: black;
+color=white;
+}
+
+p{
+color: red;
+font-weight: bold;
+}
