@@ -55,6 +55,28 @@ h5 {
     font-size: 'small';
 }
 
+ul {
+    list-style: none;
+}
+
+li > p{
+    padding-left: 1em;
+   text-indent: -1em;  
+   color: gray;
+}
+
+li > p > strong{
+    color: white;
+    font-family: 'Arial'sans-serif;
+}
+
+li > p > b{
+                color: white;
+            font-family: 'Arial'sans-serif;
+            font-size: 'medium';
+}
+
+
 nav {	
     font-family: 'Arial' sans-serif;
     text-align: center;
