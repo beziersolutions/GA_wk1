@@ -1,0 +1,2 @@
+1. centering of headings between a rule and top of the screen?
+2. how to match fonts and height etc

@@ -14,9 +14,13 @@ article {
 
 
 p {
-color: white;
-    text-align: left;
     line-height: 1.4;
+    text-align: left;
+    color: white;
+}
+
+hr {
+    color: gray;
 }
 
 img {
@@ -46,72 +50,49 @@ h2 {
 
 h3 {
     text-transform: uppercase;
+    font-family: 'Arial' sans-serif;
     color: gray;
     text-align: left;
 }
 
-h5 {
-    font-family: 'Arial' sans-serif;
-    font-size: 'small';
-}
-
 ul {
     list-style: none;
+    text-align: left;
+    line-height: 1.4;
 }
 
-li > p{
-    padding-left: 1em;
-   text-indent: -1em;  
-   color: gray;
+li {
+    padding-left: 2em;
+    text-indent: -0.5em;
+    color: gray;
 }
 
-li > p > strong{
-    color: white;
-    font-family: 'Arial'sans-serif;
-}
+    li > strong {
+        color: white;
+        font-family: 'Arial'sans-serif;
+    }
 
-li > p > b{
-                color: white;
-            font-family: 'Arial'sans-serif;
-            font-size: 'medium';
-}
+    li > b {
+        color: white;
+        font-family: 'Arial'sans-serif;
+    }
+
+    li > small{
+        color: gray;
+        font-family: 'Arial'sans-serif; 
+    }
 
 
-nav {	
+nav {
     font-family: 'Arial' sans-serif;
     text-align: center;
 }
 
-	nav > strong {
-    color: #ededef;
-	}
-
-
-	nav, a {
-    color: #5dcc9e;
-	}
-
-
-section {
-    margin: 20px 20px;
-}
-
-    section > p {
-        color: gray;
+    nav > strong {
+        color: #ededef;
     }
 
-        section > p > strong {
-            color: white;
-            font-family: 'Arial'sans-serif;
-        }
 
-        section > p > b {
-            color: white;
-            font-family: 'Arial'sans-serif;
-            font-size: 'medium';
-        }
-
-        section > p > small {
-            color: gray;
-            font-family: 'Arial'sans-serif;
-        }
+nav, a {
+    color: #5dcc9e;
+}
